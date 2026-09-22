@@ -34,9 +34,7 @@ build/
 data/raw/*
 data/processed/*
 
-# Large data files
-*.csv
-*.parquet
+# Large scientific data files
 *.feather
 *.h5
 *.hdf5
@@ -44,6 +42,13 @@ data/processed/*
 *.tar
 *.tar.gz
 *.7z
+
+# Large tabular data
+data/raw/*
+data/processed/*
+
+# Local experiment artifacts
+experiments/
 
 # ML / scientific checkpoints
 *.pt
@@ -65,3 +70,4 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+
