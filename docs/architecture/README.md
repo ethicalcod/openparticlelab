@@ -268,23 +268,23 @@ The long-term architecture may become:
                     │ React / TS      │
                     └────────┬────────┘
                              │
-                                           ▼
+                             ▼
                     ┌─────────────────┐
                     │ Django REST API │
                     └────────┬────────┘
                              │
               ┌──────────────┼──────────────┐
               │              │              │
-                     ▼                    ▼                    ▼
+              ▼              ▼              ▼
            MySQL          Redis          Dataset
                              │           Services
-                                           ▼
+                             ▼
                           Celery
                              │
-                                           ▼
+                             ▼
                     Scientific Workers
                              │
-                                           ▼
+                             ▼
                     Analysis Artifacts
 ```
 
